@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+     .aa {
+      padding: 1rem;
+      border: 2px solid #a0b1c4;
+      width: 200px;
+      height: 130px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .bb {
+      padding: 0.2rem;
+      border: 1px solid #a0b1c4;
+      border-radius: 4px;
+      width: 120px;
+      height: 20px;
+    }
+
+    .aa:focus-within {
+      border-color: #4892e7;
+      box-shadow: 0px 0px 4px #0000ff;
+    }
+    .bb:hover{
+      background-color: rgb(226, 223, 37);
+    }
+  </style>
+</head>
+<body>
+    <section class="aa">
+        <div>
+          登录名称：<br><input type="text" placeholder="请输入登录名称">
+        </div>
+        <div>
+          登陆密码：<br><input type="text" placeholder="请输入登陆密码">
+        </div><br>
+        <div style="text-align: center;" class="bb">
+          确定
+        </div>
+      </section>
+    
+</body>
+</html>
